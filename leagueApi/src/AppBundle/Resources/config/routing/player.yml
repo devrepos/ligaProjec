@@ -1,0 +1,19 @@
+player_new:
+    path:   /new
+    defaults: { _controller: "AppBundle:Player:new"}
+    methods:  POST
+    
+player_edit:
+    path:   /edit/{id}
+    defaults: { _controller: "AppBundle:Player:edit", id:null }
+    methods:  POST
+    
+player_upload_image:
+    path:   /upload-image/{id}
+    defaults: { _controller: "AppBundle:Player:upload", id:null }
+    methods:  POST
+
+player_list:
+    path:   /list/{clubId}
+    defaults: { _controller: "AppBundle:Player:index" }
+    methods:  GET    

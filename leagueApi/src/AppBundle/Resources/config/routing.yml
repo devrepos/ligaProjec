@@ -1,0 +1,12 @@
+app_default:
+    resource: "@AppBundle/Resources/config/routing/default.yml"
+    prefix: /
+
+app_club:
+    resource: "@AppBundle/Resources/config/routing/club.yml"
+    prefix: /club
+
+app_player:
+    resource: "@AppBundle/Resources/config/routing/player.yml"
+    prefix: /player
+    

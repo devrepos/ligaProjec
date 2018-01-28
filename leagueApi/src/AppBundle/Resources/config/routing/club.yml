@@ -1,0 +1,9 @@
+club_list:
+    path:   /list
+    defaults: { _controller: "AppBundle:Club:index" }
+    methods:  GET
+
+club_info:
+    path:   /info/{id}
+    defaults: { _controller: "AppBundle:Club:club" }
+    methods:  GET

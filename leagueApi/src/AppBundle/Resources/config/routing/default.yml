@@ -1,0 +1,9 @@
+default_index:
+    path:   /
+    defaults: { _controller: "AppBundle:Default:index"}
+    methods:  GET
+
+default_positions:
+    path:   /positions
+    defaults: { _controller: "AppBundle:Default:positions"}
+    methods:  GET
